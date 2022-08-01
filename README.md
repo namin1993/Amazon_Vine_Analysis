@@ -5,19 +5,19 @@ An ETL process is performed on an Amazon Reviews Dataset for videos reviewed und
 
 The backend of our database is connected to the AWS Postgres RDS. We create the following tables on our database:
 
-customers_table - lists all unique customer ids and the number of reviews they made
+## customers_table - lists all unique customer ids and the number of reviews they made
 ![customers_table](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/customers_table.png)
 ![customers_table_size_size](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/Size_of_customers_table.png)
 
-products_table - lists all video titles and their corresponding product id
+## products_table - lists all video titles and their corresponding product id
 ![products_table](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/products_table.png)
 ![products_table_size](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/Size_of_products_table.png)
 
-review_id_table - lists all review ids and their corresponding customer and product
+## review_id_table - lists all review ids and their corresponding customer and product
 ![review_id_table](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/review_id_table.png)
 ![review_id_table_size](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/Size_of_review_id_table.png)
 
-vine_table - lists all vine reviews
+## vine_table - lists all vine reviews
 ![vine_table](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/vine_table.png)
 ![vine_table_size](https://github.com/namin1993/Amazon_Vine_Analysis/blob/6545ff93e015a27aef0842495e4a5d9e75248313/Resources/Screenshots/Size_of_vine_table.png)
 
